@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.querySelector('.button-random-move');
-    var areaWidth = 300; // Ancho del área permitida
-    var areaHeight = 200; // Alto del área permitida
+    var areaWidth = 600; // Ancho del área permitida
+    var areaHeight = 300; // Alto del área permitida
   
     function moveButton() {
       var maxX = areaWidth - button.offsetWidth;
